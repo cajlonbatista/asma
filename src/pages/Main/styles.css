@@ -1,0 +1,60 @@
+.main{
+  animation: bounce 1s linear;
+  width: 100vw;
+  padding: 20px;
+}
+.initial{
+  display: flex;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  height: 100vh;
+  justify-content: space-between;
+  background-size: cover;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  color: #f96161;
+  
+}
+.initial div h1{
+  font-size: 5rem;
+}
+.initial div img{
+  width: 100%;
+  max-width: 400px;
+  border-radius: 1.3rem;
+  padding: 5px;
+}
+
+.initial .links{
+  display: flex;
+  flex-direction: column;
+}
+.initial .links a{
+  padding: 10px 15px;
+  background: #ffffff;
+  margin-top: 20px;
+  margin-right: 30px;
+  border: 1px solid #f96161;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 5px;
+  color: #f96161;
+  transition: all 0.3s;
+  text-decoration: none;
+  font-size: 1.6rem;
+}
+.initial .links a:hover{
+  background: #f96161;
+  border: 1px white solid;
+  color: white;
+}
+@media(max-width:320px ){
+  .initial{
+    display: flex;
+    flex-direction: column;
+  }
+  .initial .links a{
+    margin-right: 0;
+  }
+}

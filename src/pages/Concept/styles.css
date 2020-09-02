@@ -1,0 +1,63 @@
+.concept{
+    animation: bounce 1s linear;
+    background-size: cover;
+    width: 100vw;
+    background: url("../../assets/3625655.jpg");
+    height: 100vh;
+}
+.concept-1{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-top: 40px;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: space-evenly;
+}
+.concept-top{
+    display: flex;
+    flex-direction: row;
+    padding: 0.9rem;
+    align-items: center;
+    justify-content: center;
+}
+.concept-top a img{
+    width: 24px;
+    margin-right: 10px;
+    
+}
+.concept-top span{
+    font-weight: 600;
+    text-indent: 10px;
+    font-size: 2.3rem;
+    color: #f96161;
+    font-family: Poppins, sans-serif;
+}
+.concept-1 div p, strong {
+    font-size: 1.9rem;
+    color: #f96161;
+    padding-left: 15px;
+    text-align: center;
+    font-family: Noto Sans JP, sans-serif;
+    line-height: 2.3rem;
+}
+.concept img{
+    width: 100%;
+    max-width: 500px;
+    border-radius: 5px;
+}
+@media(max-width: 966px){
+    .concept{
+        height: auto;
+    }
+    .concept-1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5px;
+    }
+    .concept-1 div p, strong {
+        color: #181818;
+    }
+}
