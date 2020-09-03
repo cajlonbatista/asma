@@ -1,6 +1,9 @@
 import React from 'react';
 import './styles.css';
 import { Link } from 'react-router-dom';
+import instagram from "../../assets/instagram.svg";
+import facebook from "../../assets/facebook.svg";
+import github from "../../assets/github.svg";
 
 function Main() {
   return (
@@ -16,6 +19,11 @@ function Main() {
           <Link to="/treatment">Tratamento</Link>
         </div>
       </div>
+        <div className="contact">
+          <img src={instagram} alt="" />
+          <img src={github} alt="" />
+          <img src={facebook} alt="" />
+        </div>
     </section>
   );
 }

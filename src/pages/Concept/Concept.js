@@ -1,18 +1,14 @@
 import React from "react";
+
 import "./styles.css";
-import back from "../../assets/back.svg";
-import { Link } from "react-router-dom";
+
 import bronquios from "../../assets/bronquios.jpg";
+import Header from "../../components/Header";
 
 export default function Concept() {
     return (
         <section className="concept">
-            <div className="concept-top">
-                <Link to="/">
-                    <img src={back} alt="" />
-                </Link>
-                <span>Conceito</span>
-            </div>
+            <Header title="Conceito"></Header>
             <section className="concept-cont">
                 <article className="concept-1">
                     <img src={bronquios} alt="" />
@@ -22,6 +18,16 @@ export default function Concept() {
                         </p>
                     </div>
                 </article>
+                <article className="concept-1">
+                    
+                    <div>
+                        <p>
+                            Cerca de um terço dos asmáticos possui um familiar (pais, avós, irmãos ou filhos) com asma ou com outra doença alérgica. Por outro lado, alguns fatores ambientais como alterações climáticas, contato com pólen, mofo, poeira, pelo de animais, fumaça, cheiros fortes, gripes e resfriados e ingestão de certos alimentos ou medicamentos podem atuar como precipitantes ou agravantes da enfermidade.
+                        </p>
+                    </div>
+                    <img src="https://saude.novartis.com.br/asma-grave/wp-content/uploads/2019/01/4-4-asma-alergica-e-asma-nao-alergica-diferencas.jpg" alt="" />
+                </article>
+                
             </section>
         </section>
     );

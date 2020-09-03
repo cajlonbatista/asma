@@ -1,25 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo&family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kufam&display=swap');
+
 body {
   margin: 0;
-  padding: 0;
-  background: url(./assets/3625655.jpg);
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
-  
   -moz-osx-font-smoothing: grayscale;
-  overflow: hidden;
-}
-*{
-  font-size: 60%;
-}
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
-p{
+* {
+  font-size: 60%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+p {
   text-align: center;
+}
+
+@media(min-width: 600px) {
+  ::-webkit-scrollbar-track {
+    background-color: #f5f5f5;
+  }
+  ::-webkit-scrollbar {
+    width: 6px;
+    background: #f5f5f5;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: tomato;
+  }
 }

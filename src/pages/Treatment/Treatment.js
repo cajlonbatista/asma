@@ -1,16 +1,12 @@
 import React from "react";
+import Header from "../../components/Header";
+
 import "./styles.css";
-import back from "../../assets/back.svg";
-import { Link } from "react-router-dom";
+
 export default function Treatment() {
     return (
         <section className="treatment">
-            <div className="treatment-top">
-                <Link to="/">
-                    <img src={back} alt="" />
-                </Link>
-                <span>Tratamento</span>
-            </div>
+            <Header title="Tratamento"></Header>
             <section className="treatment-cont">
                 <img src="https://saude.novartis.com.br/asma-grave/wp-content/uploads/2019/01/2-2-tratamento-da-asma-grave.jpg" alt="" />
                 <div className="treatment-initial">
