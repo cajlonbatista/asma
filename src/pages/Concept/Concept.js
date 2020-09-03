@@ -14,7 +14,7 @@ export default function Concept() {
                     <img src={bronquios} alt="" />
                     <div>
                         <p>
-                            A asma é uma doença inflamatória crónica das vias respiratórias caracterizada por sintomas diversos e recorrentes, obstrução reversível das vias respiratórias e broncoespasmo (espasmos nos brônquios que impedem a passagem do ar até os pulmões).
+                            A <strong>asma</strong> é uma doença inflamatória crónica das vias respiratórias caracterizada por sintomas diversos e recorrentes, obstrução reversível das vias respiratórias e <strong>broncoespasmo</strong> (espasmos nos brônquios que impedem a passagem do ar até os pulmões).
                         </p>
                     </div>
                 </article>

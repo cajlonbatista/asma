@@ -4,6 +4,7 @@
   overflow: hidden;
   height: 100vh;
   background: url(../../assets/3625655.jpg);
+  animation: plax 200s linear infinite;
 }
 .initial{
   display: flex;
@@ -20,6 +21,7 @@
 }
 .initial div h1{
   font-size: 5rem;
+  margin-left: 20px;
 }
 .initial div img{
   width: 100%;
@@ -59,11 +61,16 @@
   right: 0px;
 
 }
-.contact img{
+.contact a img{
   margin-right: 10px;
   width: 30px;
+  transition: all 0.4s;
 }
-@media(max-width:320px ){
+.contact a img:hover{
+  transform: scale(1.2);
+  opacity: 0.8;
+}
+@media(max-width:375px ){
   .initial{
     display: flex;
     flex-direction: column;
@@ -71,10 +78,22 @@
   .initial .links a{
     margin-right: 0;
   }
+  .main{
+    background-position-x: -90px;
+  }
   .links{
     margin-bottom: 20px;
   }
   .contact img{
      width: 23px;
+  }
+}
+
+@keyframes plax{
+  0%{
+    background-position-x: -800px;
+  }
+  100%{
+    background-position-x: 800px;
   }
 }

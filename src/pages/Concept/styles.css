@@ -27,6 +27,11 @@
     font-family: Archivo, sans-serif;
     font-size: 1.9rem;
     text-align: justify;
+    color: #181818;
+    width: 100%;
+    max-width: 400px;
+}
+strong{
     color: tomato;
 }
 .concept-2{

@@ -20,6 +20,7 @@ code {
 }
 
 p {
+  font-size: 1.8rem;
   text-align: center;
 }
 
@@ -34,4 +35,9 @@ p {
   ::-webkit-scrollbar-thumb {
     background: tomato;
   }
+}
+strong{
+  color: tomato;   
+  font-size: 1.8rem;
+
 }

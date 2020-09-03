@@ -2,14 +2,13 @@
     display: flex;
     background: tomato;
     align-items: center;
-    
+
     width: 100vw;
     padding: 8px 16px;
-    justify-content: center;
+    justify-content: start;
 }
 .concept-top a img{
     margin-right: 10px;
-
     width: 24px;
 }
 .concept-top span{

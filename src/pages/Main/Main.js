@@ -20,9 +20,9 @@ function Main() {
         </div>
       </div>
         <div className="contact">
-          <img src={instagram} alt="" />
-          <img src={github} alt="" />
-          <img src={facebook} alt="" />
+          <a href="https://www.instagram.com/cajlonbatista/" target="_blank"><img src={instagram} alt="" /></a>
+          <a href="https://github.com/cajlonbatista" target="_blank"><img src={github} alt="" /></a>
+          <a href="https://www.facebook.com/franciscocajlon.jhonanthanmourabatista/" target="_blank"><img src={facebook} alt="" /></a>
         </div>
     </section>
   );
