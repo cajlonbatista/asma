@@ -35,6 +35,9 @@
     max-width: 500px;
     border-radius: 5px;
 }
+.treatment-initial img{
+    text-align: center;
+}
 .treatment-initial{
     display: flex;
     width: 100%;
